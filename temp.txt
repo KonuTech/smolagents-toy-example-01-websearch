@@ -1,0 +1,10 @@
+python3 -m venv .venv
+source .venv/bin/activate
+
+ # Install Ollama and download model ollama run <<model>> . I suggested using model ~3~6gb ( qwen2.5:7b or llama3.2 ) 
+
+ollama run qwen2.5:7b
+
+pip install -r requirements.txt
+
+SMOLAGENTS_MODEL="LiteLLM" python main.py "What is the capital of France?"
