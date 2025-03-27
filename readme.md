@@ -17,3 +17,6 @@ env > .env
 
 6:
 SMOLAGENTS_MODEL="LiteLLM" python main.py "What is the capital of France?"
+SMOLAGENTS_MODEL="LiteLLM" python main.py "Write a function to calculate the factorial of a number."
+SMOLAGENTS_MODEL="LiteLLM" python main.py "What is the weather like today?"
+SMOLAGENTS_MODEL="LiteLLM" python main.py "What is the latest news on AI?"
