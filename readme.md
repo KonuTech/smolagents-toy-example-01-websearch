@@ -13,4 +13,7 @@ ollama run qwen2.5:7b
 pip install -r requirements.txt
 
 5:
+env > .env
+
+6:
 SMOLAGENTS_MODEL="LiteLLM" python main.py "What is the capital of France?"
